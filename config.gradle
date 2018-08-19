@@ -6,14 +6,15 @@ ext {
     ]
 
     vercode = [
-            publishCode   : 6,
+            publishCode   : 1,
             publishVersion: "1.0.5",
 
-            userOrg       : 'jkb',
-            groupId       : 'com.justkiddingbaby',
+            userOrg       : 'sunnycoffee',
+            repoName      : 'android',
+            groupId       : 'me.coffee',
             artifactId    : 'vercodeedittext',
             desc          : 'An Android vercode EditText.（一个安卓验证码输入框）',
-            website       : 'https://github.com/YangJing96/VercodeEditText'
+            website       : 'https://github.com/sunnycoffee/VercodeEditText'
     ]
 
     android = [
@@ -28,12 +29,5 @@ ext {
     dependencies = [
             appcompatV7: 'com.android.support:appcompat-v7:23.3.0',
             design     : 'com.android.support:design:24.0.0'
-    ]
-
-    store = [
-            storeKey     : '../sign/JustKiddingBaby.jks',
-            storePassword: 'mimajiushiwo',
-            keyAlias     : 'JustKiddingBaby',
-            keyPassword  : 'mimajiushiwo'
     ]
 }

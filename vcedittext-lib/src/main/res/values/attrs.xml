@@ -4,9 +4,9 @@
     <declare-styleable name="VerCodeEditText">
         <attr name="figures" format="integer" />
         <attr name="verCodeMargin" format="dimension" />
-        <attr name="bottomLineSelectedColor" format="reference" />
-        <attr name="bottomLineNormalColor" format="reference" />
+        <attr name="bottomLineSelectedColor" format="color" />
+        <attr name="bottomLineNormalColor" format="color" />
         <attr name="bottomLineHeight" format="dimension" />
-        <attr name="selectedBackgroundColor" format="reference" />
+        <attr name="selectedBackgroundColor" format="color" />
     </declare-styleable>
 </resources>

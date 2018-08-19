@@ -174,7 +174,7 @@ public class VerificationCodeEditText extends android.support.v7.widget.AppCompa
             float lineY = height - mBottomLineHeight / 2;
             int start = width * i + i * mVerCodeMargin;
             int end = width + start;
-            if (i < mCurrentPosition) {
+            if (i == mCurrentPosition) {
                 canvas.drawLine(start, lineY, end, lineY, mBottomSelectedPaint);
             } else {
                 canvas.drawLine(start, lineY, end, lineY, mBottomNormalPaint);

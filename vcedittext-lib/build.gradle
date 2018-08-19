@@ -3,6 +3,7 @@ apply plugin: 'com.novoda.bintray-release'
 
 publish {
     userOrg = rootProject.ext.vercode.userOrg
+    repoName = rootProject.ext.vercode.repoName
     groupId = rootProject.ext.vercode.groupId
     artifactId = rootProject.ext.vercode.artifactId
     publishVersion = rootProject.ext.vercode.publishVersion
@@ -13,7 +14,6 @@ publish {
 android {
 
     compileSdkVersion rootProject.ext.android.compileSdkVersion
-    buildToolsVersion rootProject.ext.android.buildToolsVersion
 
     defaultConfig {
         minSdkVersion rootProject.ext.android.minSdkVersion
@@ -37,6 +37,7 @@ android {
     lintOptions {
         abortOnError false
     }
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {
